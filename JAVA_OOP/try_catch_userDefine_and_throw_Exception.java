@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 //declare user define exception class
+
+//class AgeNotAllowedException extends RuntimeException{
 class AgeNotAllowedException extends Exception{
     AgeNotAllowedException(){
         super("Age must be greate or equal than 18");
